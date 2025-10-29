@@ -1,0 +1,68 @@
+body, .card {
+      color: white
+    }
+
+    .card {
+      border: solid 2px #555
+    }
+
+    .team-card {
+      transition: transform 0.3s ease;
+      max-width: 280px;   
+      margin: 0 auto
+    }
+
+.sprite {
+  width: 88px;           
+  height: 88px;          
+  object-fit: contain;   
+  display: block;        
+  margin: 10px auto 0;
+  border-radius: 5px;
+  background-image: url("../img/spritesheet.webp");
+  background-repeat: no-repeat;
+  background-size: 352px auto;
+}
+
+    .fondo-verde, .btn-primary {
+      background-color: #73b21b !important
+    }
+
+    .btn-primary {
+      border-color: #73b21b;
+    }
+
+    .btn-primary:hover {
+      background-color: #609417 !important;
+      border-color: #609417;
+    }
+
+    .fondo-oscuro, .card {
+      background-color: #161922 !important;
+    }
+
+    .texto-verde {
+      color: #73b21b !important;
+      font-weight: bold;
+      transition-duration: 0.25s;
+    }
+
+    .texto-verde:hover{
+      color: #609417 !important;
+      transition-duration: 0.25s;
+    }
+
+    .team-container {
+      display: flex;
+      justify-content: center; 
+      align-items: flex-start;
+      flex-wrap: wrap;      
+      gap: 0.8rem;
+    }
+
+
+/* Posiciones del sprite (cada 88px) */
+.miembro1 { background-position: 0 0; }
+.miembro2 { background-position: -88px 0; }
+.miembro3 { background-position: -176px 0; }
+.miembro4 { background-position: -264px 0; }
