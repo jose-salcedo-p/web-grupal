@@ -60,8 +60,6 @@ body, .card {
       gap: 0.8rem;
     }
 
-
-/* Posiciones del sprite (cada 88px) */
 .miembro1 { background-position: 0 0; }
 .miembro2 { background-position: -88px 0; }
 .miembro3 { background-position: -176px 0; }
